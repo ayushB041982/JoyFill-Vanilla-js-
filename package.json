@@ -1,0 +1,24 @@
+{
+  "name": "-example-joyfil-vanilla-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify ./src/app.js -o ./public/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@joyfill/components": "^1.0.7",
+    "browserify": "^17.0.0",
+    "require": "^2.4.20",
+    "rxjs": "^7.8.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
